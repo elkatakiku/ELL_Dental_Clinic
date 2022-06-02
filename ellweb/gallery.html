@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="gstyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>ELL Gallery</title>
+</head>
+<body>
+	<!---nav----->
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="clinicz/ell_logo.png"></a>
+			<h2>  ELL Dental Clinic</h2>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="services.html">SERVICES</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="appointment.html">CONTACT US</a></li>
+				</ul>	
+			</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>	
+</div>		
+
+
+<!---GALLERY 2ND OPTION----
+<div class="galcontainer">
+	<div class="gallery_container">
+		<h2>Gallery</h2>
+		<div class="img-gallery"><img src="clinicz/a12.jpg"></div>
+		<div class="img-gallery"><img src="clinicz/c7.jpg"></div>
+		<div class="img-gallery"><img src="clinicz/a11.jpg"></div>
+		<div class="img-gallery"><img src="clinicz/a8.jpg"></div>
+		<div class="img-gallery"><img src="clinicz/a6.jpg"></div>
+		<div class="img-gallery"><img src="clinicz/a7.jpg"></div>
+		<div class="img-gallery"><img src="clinicz/a14.jpg"></div>
+		<div class="img-gallery"><img src="clinicz/a13.jpg"></div>
+		<div class="img-gallery"><img src="clinicz/c6.jpg"></div>
+		<div class="img-gallery"><img src="clinicz/a4.jpg"></div>
+		<div class="img-gallery"><img src="clinicz/5.png"></div>
+		<div class="img-gallery"><img src="clinicz/4.png"></div>
+		<div class="img-gallery"><img src="clinicz/3.png"></div>
+		<div class="img-gallery"><img src="clinicz/1.png"></div>
+		<div class="img-gallery"><img src="clinicz/2.png"></div>
+	</div>
+</div>
+	</section>
+
+
+
+<!---gallery----->
+	<div class="gallery-txt"><h2>Gallery</h2></div>
+	<div class="img-gallery">
+		<img src="clinicz/a12.jpg">
+		<img src="clinicz/c7.jpg">
+		<img src="clinicz/a11.jpg">
+		<img src="clinicz/a8.jpg">
+		<img src="clinicz/a6.jpg">
+		<img src="clinicz/a7.jpg">
+		<img src="clinicz/a14.jpg">
+		<img src="clinicz/a13.jpg">
+		<img src="clinicz/c6.jpg">
+		<img src="clinicz/a4.jpg">
+		<img src="clinicz/5.png">
+		<img src="clinicz/4.png">
+		<img src="clinicz/3.png">
+		<img src="clinicz/1.png">
+		<img src="clinicz/2.png">
+		
+	</div>
+	</section>
+<!--- footer----->
+<section class="ftr">
+	<div class="footer-container">
+	<div class="footer">
+	<div class="footer-heading footer-2">
+		<a href="index.html"><img src="clinicz/lowgo.png"></a>
+		
+	</div>
+	<div class="footer-container">
+	<div class="footer">
+	<div class="footer-heading footer-2">
+		<h2> Explore</h2>
+		<a href="about.html">About</a>
+		<a href="appointment.html">Contact</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="services.html">Services</a>
+	</div>
+	<div class="footer-heading footer-3">
+		<h2> Have Questions?</h2>
+		<i class="fa fa-map-marker"></i><a href="#">Lotus Mall, 2nd Floor-ELL Dental Center - Nueno Avenue Brgy Tanzang Luma 1, Imus, Cavite</a></li>
+		<i class="fa fa-phone-square"></i><a href="#">09291234567</a>
+		<i class="fa fa-envelope-o"></i><a href="#">elldentalclinic@gmail.com</a>
+	</div>
+	</div>
+	</div>
+</section>
+<!--- JAVASCRIPT FOR TOGGLE MENU----->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";	
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>

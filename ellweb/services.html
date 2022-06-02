@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<title>Welcome to ELL Dental Clinic</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="clinicz/ell_logo.png"></a>
+			<h2>  ELL Dental Clinic</h2>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="services.html">SERVICES</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="appointment.html">CONTACT US</a></li>
+				</ul>	
+			</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+<!--- SERVICES OFFERED----->
+<section class="services">
+		<h1>Services Offered</h1>
+		<h2>ELL dental clinic offers the best treatment for you.</h2>
+
+	<div class="row">
+		
+		<div class="services-col">
+			<h3>Oral Prophylaxis</h3>
+			<img src="clinicz/op.png" height="160" width="200">
+			<p>A dental procedure comprises polishing and scaling to remove tartar and plaque build-up from the teeth' surfaces, including those between and beneath the gums.Its purpose is to lower the risk of gum disease and tooth decay.</p>
+		</div>
+		<div class="services-col">
+			<h3>Restoration</h3>
+			<img src="clinicz/resto.png" height="150" width="200">
+			<p>Cavity fillings, root canals, and even dental implants are examples of restorative procedures. Restorative dentistry has two goals: to restore the function of the teeth and to repair the visual appeal of the teeth.</p>
+	
+		</div>
+		<div class="services-col">
+			<h3>Extraction</h3>
+			<img src="clinicz/exo.png" height="150" width="200">
+			<p>An extraction is the removal of a tooth beyond repair due to decay. A dental extraction may be required due to severe tooth decay, infection, or crowding.</p>
+		</div>
+		<div class="services-col">
+			<h3>Odontectomy</h3>
+			<img src="clinicz/odon.png" height="150" width="200">
+			<p>A dental surgical procedure is done on the impacted tooth. The process includes cutting into the gums to expose the affected tooth and the bone area covering the tooth.
+			</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="services-col">
+			<h3>Root Canal Treatment </h3>
+			<img src="clinicz/root.png" height="150" width="200">
+			<p>A root canal removes the inflamed or diseased pulp from the interior of the tooth. A treatment to repair and save a badly damaged or infected tooth instead of removing it. The term "root canal" comes from cleaning of the canals inside a tooth's root. </p>
+		</div>
+		<div class="services-col">
+			<h3>Prosthodontics</h3>
+			<img src="clinicz/prostho.png" height="150" width="200">
+			<p>Prosthodontics is the branch of dentistry that deals with repairing or replacing teeth using prostheses. Dental crowns and bridges, dentures, and even dental implants are included.</p>
+		</div>
+		<div class="services-col">
+			<h3>Orthodontics</h3>
+			<img src="clinicz/ortho.png" height="150" width="200">
+			<p>Orthodontics is a branch of dentistry that focuses on detecting, preventing, and repairing crooked teeth and jaws, as well as incorrect bite patterns.</p>
+		</div>
+	</div>
+</section>
+
+<!--- footer----->
+<section class="ftr">
+	<div class="footer-container">
+	<div class="footer">
+	<div class="footer-heading footer-2">
+		<a href="index.html"><img src="clinicz/lowgo.png"></a>
+		
+	</div>
+	<div class="footer-container">
+	<div class="footer">
+	<div class="footer-heading footer-2">
+		<h2> Explore</h2>
+		<a href="about.html">About</a>
+		<a href="appointment.html">Contact</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="services.html">Services</a>
+	</div>
+	<div class="footer-heading footer-3">
+		<h2> Have Questions?</h2>
+		<i class="fa fa-map-marker"></i><a href="#">Lotus Mall, 2nd Floor-ELL Dental Center - Nueno Avenue Brgy Tanzang Luma 1, Imus, Cavite</a></li>
+		<i class="fa fa-phone-square"></i><a href="#">09291234567</a>
+		<i class="fa fa-envelope-o"></i><a href="#">elldentalclinic@gmail.com</a>
+	</div>
+	</div>
+	</div>
+</section>
+
+<!--- JAVASCRIPT FOR TOGGLE MENU----->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";	
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>
