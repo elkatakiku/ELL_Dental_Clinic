@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <header id="title">
+  <header id="title" class="colored-section">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="index.html">ELL Dental Clinic</a>
@@ -37,13 +37,13 @@
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
             </li>
           </ul>
         </div>
@@ -74,7 +74,7 @@
     <div class="">
 
       <h2 class="section-heading">Services Offered</h2>
-      <p class="section-description">Here in ELL Dental Clinic, we offer the best treatment for you.</p>
+      <p>Here in ELL Dental Clinic, we offer the best treatment for you.</p>
 
       <div class="row">
 
@@ -191,42 +191,57 @@
     <img src="" alt="Clinic image">
   </section> -->
 
+  <!-- <hr> -->
+
   <section id="contact">
 
-    <div class="container-fluid">
+    <div class="">
 
       <div class="row">
 
-        <div class="col-lg-6">
-          <img src="" alt="ELL Dental CLinic Logo">
-          <h2 class="section-heading">Have Questions?</h2>
-          <p>We are ELL Dental Clinic. Get in touch with us!</p>
-          <!-- <p>You have inquiries? Get in touch with us!</p> -->
+        <div class="col-lg-5">
 
-          <form class="" action="index.html" method="post">
-            <label for="">Name</label>
-            <input type="text" name="" value="">
-            <label for="">Email</label>
-            <input type="email" name="" value="">
-            <label for="">Message</label>
-            <textarea name="message" rows="8" cols="30"></textarea>
-            <input type="submit" name="" value="Contact Us">
-          </form>
+          <div class="contact-left-side">
+            <!-- <img class="contact-logo" src="images/logo.png" alt="ELL Dental CLinic Logo"> -->
+            <h2 class="section-heading">Have Questions?</h2>
+            <p>We are ELL Dental Clinic. Get in touch with us!</p>
+            <p><i class="fa-solid fa-location-dot"></i> Lotus Mall, 2F, Nueno Ave, Imus</p>
+            <!-- <p>You have inquiries? Get in touch with us!</p> -->
+
+            <form class="contact-form" action="index.html" method="post">
+              <!-- <label for="">Name</label> -->
+              <input class="contact-input" type="text" name="" placeholder="Name" value="">
+              <!-- <label for="">Email</label> -->
+              <input class="contact-input" type="email" name="" placeholder="Email" value="">
+              <!-- <label for="">Message</label> -->
+              <textarea class="contact-input" name="message" rows="8" placeholder="Message"></textarea>
+              <input class="btn btn-primary btn-lg btn-submit" type="submit" name="" value="Contact Us">
+            </form>
+          </div>
+
         </div>
 
-        <img class="col-lg-6" src="" alt="Map or something accent">
+        <!-- <img class="col-lg-6" src="" alt="Map or something accent"> -->
+        <!-- <iframe class="col-lg-6 map" -->
+        <!-- src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416082.14795982133!2d121.12955410984851!3d14.329643572298016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d360bf916eaf%3A0x3a9915549e3c62e0!2sLotus%20Central%20Mall%2C%20Inc.!5e0!3m2!1sfil!2sph!4v1641997221824!5m2!1sfil!2sph" -->
+        <!-- allowfullscreen="" loading="lazy"></iframe> -->
+        <iframe class="col-lg-7 map" src="https://www.google.com/maps/embed/v1/place?q=ELL+Dental+Care+Center&key=AIzaSyDztlrk_3CnzGHo7CFvLFqE_2bUKEq1JEU" allowfullscreen></iframe>
       </div>
     </div>
   </section>
 
-  <section id="cta">
+  <hr class="divider">
+
+  <section id="cta" class="colored-section">
     <div class="container-fluid">
 
       <!-- <h2 class="section-heading">Welcome!</h2> -->
-      <h3 class="big-heading">New patients are always welcome, and we look forward to meet you!</h3>
-      <button type="button" name="button">Book an Appointment</button>
+      <h3 class="big-heading">You are always welcome, and we look forward to meet you!</h3>
+      <button class="btn btn-outline-light btn-lg appointment-button" type="button" name="button">Book an Appointment</button>
     </div>
   </section>
+
+  <!-- <hr> -->
 
   <footer id="footer">
     <div class="container-fluid">
